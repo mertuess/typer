@@ -7,42 +7,42 @@ Typer — это приложение для Linux, предназначенно
 ### Установка из исходного кода
 ---
 1. Клонируйте репозиторий:
-'''bash
+```bash
 git clone https://github.com/mertuess/typer.git
 cd ./typer
-'''
+```
 
 2. Установите зависимости:
 
 Ubuntu:
-'''bash
+```bash
 sudo apt-get install build-essential cmake libncurses5-dev
-'''
+```
 
 Arch:
-'''bash
+```bash
 sudo pacman -S build-essential cmake ncurses
-'''
+```
 
 3. Соберите проект:
-'''bash
+```bash
 mkdir ./build
 cd ./build
 cmake ..
 make
-'''
+```
 
 4. Установите приложение:
-'''bash
+```bash
 sudo make install
-'''
+```
 
 ## Использование
 ---
 После установки запустите приложение из терминала:
-'''bash
+```bash
 typer
-'''
+```
 
 ## Лицензия
 ---
@@ -61,42 +61,42 @@ Typer is a Linux application designed to improve your typing speed and accuracy,
 ### Building from source
 ---
 1. Clone the repository:
-'''bash
+```bash
 git clone https://github.com/mertuess/typer.git
 cd ./typer
-'''
+```
 
 2. Install dependencies:
 
 Ubuntu:
-'''bash
+```bash
 sudo apt-get install build-essential cmake libncurses5-dev
-'''
+```
 
 Arch:
-'''bash
+```bash
 sudo pacman -S build-essential cmake ncurses
-'''
+```
 
 3. Build the project:
-'''bash
+```bash
 mkdir ./build
 cd ./build
 cmake ..
 make
-'''
+```
 
 4. Install the app:
-'''bash
+```bash
 sudo make install
-'''
+```
 
 ## Using
 ---
 After installation, launch the app from the terminal:
-'''bash
+```bash
 typer
-'''
+```
 
 ## License
 ---
