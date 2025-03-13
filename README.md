@@ -1,5 +1,4 @@
 # Typer
-## Русский
 ## Описание
 ---
 Typer — это приложение для Linux, предназначенное для улучшения навыков скорописи и тренировки слепой печати. С помощью Typer вы сможете повысить скорость и точность набора текста, а также научиться печатать, не глядя на клавиатуру.
@@ -8,7 +7,7 @@ Typer — это приложение для Linux, предназначенно
 ### Установка из исходного кода
 ---
 1. Клонируйте репозиторий:
-'''shell
+'''bash
 git clone https://github.com/mertuess/typer.git
 cd ./typer
 '''
@@ -16,17 +15,17 @@ cd ./typer
 2. Установите зависимости:
 
 Ubuntu:
-'''shell
+'''bash
 sudo apt-get install build-essential cmake libncurses5-dev
 '''
 
 Arch:
-'''shell
+'''bash
 sudo pacman -S build-essential cmake ncurses
 '''
 
 3. Соберите проект:
-'''shell
+'''bash
 mkdir ./build
 cd ./build
 cmake ..
@@ -34,14 +33,14 @@ make
 '''
 
 4. Установите приложение:
-'''shell
+'''bash
 sudo make install
 '''
 
 ## Использование
 ---
 После установки запустите приложение из терминала:
-'''shell
+'''bash
 typer
 '''
 
@@ -54,7 +53,6 @@ Typer распространяется под лицензией MIT. Подро
 
 ___
 
-## English
 ## Description
 ---
 Typer is a Linux application designed to improve your typing speed and accuracy, as well as help you master touch typing. With Typer, you can enhance your keyboard skills, learn to type without looking at the keyboard, and track your progress over time.
@@ -63,7 +61,7 @@ Typer is a Linux application designed to improve your typing speed and accuracy,
 ### Building from source
 ---
 1. Clone the repository:
-'''shell
+'''bash
 git clone https://github.com/mertuess/typer.git
 cd ./typer
 '''
@@ -71,17 +69,17 @@ cd ./typer
 2. Install dependencies:
 
 Ubuntu:
-'''shell
+'''bash
 sudo apt-get install build-essential cmake libncurses5-dev
 '''
 
 Arch:
-'''shell
+'''bash
 sudo pacman -S build-essential cmake ncurses
 '''
 
 3. Build the project:
-'''shell
+'''bash
 mkdir ./build
 cd ./build
 cmake ..
@@ -89,14 +87,14 @@ make
 '''
 
 4. Install the app:
-'''shell
+'''bash
 sudo make install
 '''
 
 ## Using
 ---
 After installation, launch the app from the terminal:
-'''shell
+'''bash
 typer
 '''
 
