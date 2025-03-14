@@ -22,7 +22,7 @@ sudo apt-get install build-essential cmake libncurses5-dev
 
 ###### Arch:
 ```bash
-sudo pacman -S build-essential cmake ncurses
+sudo pacman -S base-devel cmake ncurses
 ```
 
 3. Build the project:
